@@ -53,7 +53,8 @@ const SideBar = () => {
           padding: "5px 35px 5px 20px !important",
         },
         "& .ps-menu-button:hover": {
-          color: "#868dfb !important",
+          color: "#868dfb !important", // Text color on hover
+          backgroundColor: `${colors.primary[400]} !important`, // Background color on hover
         },
         "& .ps-menu-button.ps-active": {
           color: "#6870fa !important",
